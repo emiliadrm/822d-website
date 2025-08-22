@@ -39,6 +39,8 @@ const EntryScreen: React.FC<EntryScreenProps> = ({ onAccessGranted }) => {
     }
   };
 
+  console.log('works?', animationComplete)
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex flex-col items-center justify-center relative overflow-hidden">
       {/* Background effects */}
